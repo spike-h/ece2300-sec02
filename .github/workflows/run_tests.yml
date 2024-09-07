@@ -9,10 +9,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
-  workflow_dispatch:
-    branches: [ main ]
-
+  workflow_dispatch
+    
 jobs:
   sim:
     runs-on: ubuntu-22.04
