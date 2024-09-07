@@ -24,6 +24,8 @@ module Top();
     .out (dut_out)
   );
 
+  // dummy comment ignore
+
   // An initial block is a special piece of code which starts running at
   // the beginning of a simulation. You should NEVER use an initial block
   // when modeling hardware. But it is perfectly fine to use an initial
